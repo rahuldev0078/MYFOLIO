@@ -1,0 +1,97 @@
+/* common css start */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display:flex;
+   
+}
+.text-center{
+    text-align: center;
+}
+/* common css end */
+/* Nav Section Css Start */
+
+#nav{
+    background-color: #02918c;
+}
+#nav ul{
+    list-style-type: none;
+}
+#nav .container{
+    justify-content: space-between;
+    align-items: center;
+}
+#nav li a{
+    font-weight: 800;
+    line-height: 61px;
+    padding: 0 25.5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#nav li a:hover{
+    text-decoration: underline;
+    transition: 0.2s;
+    background-color: orange;
+}
+/* Nav Section Css End*/
+/* banner section css start */
+#banner{
+    background-image:url(./MYFOLIO.banner.png);
+    height: 729px;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: flex;
+}
+#banner h3{
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 400;
+}
+#banner h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    white-space: nowra
+    font-weight: 800;
+    line-height: 75px;
+}
+#banner p{
+    font-size: 18px;
+    line-height: 33px;
+}
+#banner img{
+    display:block;
+    margin: 50px auto;
+}
+#banner a{
+    font-size: 14px;
+    color: #0b1016;
+    line-height: 47px;
+    padding:10px 40px; 
+    text-transform: uppercase;
+    background-color: #cfc91d;
+    font-weight: 800;
+}
+#banner a:hover{
+    color: #ffffff;
+}
+/* Banner Section Css End */
